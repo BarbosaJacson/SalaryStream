@@ -26,7 +26,7 @@ public class Main {
                 line = br.readLine();
             }
         } catch (Exception e) {
-            System.out.println("Erro ao ler o arquivo: " + e.getMessage());
+            System.out.println("Error reading file: " + e.getMessage());
             scanner.close();
             return;
         }
